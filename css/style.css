@@ -147,12 +147,17 @@ footer {
 
 .card {
     align-items: center;
+    background-color: lightyellow;
 }
 
 .card-title {
     text-align: center;
     color: red;
     font-style: italic;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .navbar-custom {
@@ -201,9 +206,7 @@ footer {
 }
 
 .dropdown {
-    text-align: right;
-    width: 75px;
-    margin: 5px;
+    text-align: left;
 }
 h3{  
     text-align: center;  
