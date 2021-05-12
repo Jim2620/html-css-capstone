@@ -11,7 +11,70 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
+<body class="register-page">
+
+    <head>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">The Toki Spa</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-custom">
+                    <li class="nav-item">
+                        <a class="nav-link" href="About-Us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </head>
+    <main>
+        <h2 style="font-size: 50px; color: yellow; font-weight: bold; font-style: italic;">Register to the Toki Spa!</h2><br>
+        <div class="register">
+            <form id="login" method="get" action="login.php">
+                <br><br><br>
+                <label style="color: red;"><b>User Name
+                    </b>
+                </label>
+                <input type="text" name="Uname" id="Uname" placeholder="Username...">
+                <br><br>
+                <label style="color: red;"><b>Password
+                    </b>
+                </label>
+                <input type="Password" name="Pass" id="Pass" placeholder="Password..." required>
+                <br><br>
+                <label style="color: red;"><b>Re-Enter Password
+                    </b>
+                </label>
+                <input type="Password" name="Pass" id="Pass" placeholder="Re-Enter Password..." required>
+                <br><br>
+                <input type="button" name="log" id="log" value="Sign Up">
+                <br><br>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="text-primary copyright">&copy;The Toki Spa 2021</div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
+</html>

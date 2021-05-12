@@ -30,6 +30,16 @@ body.services {
     background-size: cover; 
     font-family: 'Arial'; 
 }
+
+body.register-page
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: url('/images/entrance.jpg'); 
+    background-size: cover;
+    font-family: 'Arial'; 
+}
+
 .login{  
         width: 450px;
         height: 420px;
@@ -42,8 +52,22 @@ body.services {
         /* background: #23463f 0.8; */
         background-color: rgba(218, 162, 10, 0.356);  
         border-radius: 15px ;
-          
 }  
+
+.register{  
+    width: 450px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    overflow: hidden;  
+    margin: auto;   
+    padding: 80px;  
+    /* background: #23463f 0.8; */
+    background-color: none 
+    border-radius: 15px ;
+}
+
 h2{  
     text-align: center;  
     color: rgb(34, 247, 6);  
