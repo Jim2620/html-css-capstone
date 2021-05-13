@@ -64,3 +64,21 @@ h3 {
 .center tr td {
     border: 1px solid black;
 }
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.copyright {
+    flex: 0 0 75%;
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: black !important;
+}
